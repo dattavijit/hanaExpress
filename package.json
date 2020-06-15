@@ -5,7 +5,7 @@
     "repository": "<Add your repository here>",
     "license": "UNLICENSED",
     "dependencies": {
-        "@sap/cds": "^3.34.2",
+        "@sap/cds": "3.21.x",
         "express": "^4.17.1",
         "@sap/hana-client": "^2.4.196"
     },
@@ -13,7 +13,7 @@
         "node": "^10 || ^12"
     },
     "scripts": {
-        "build": "cds build",
+        "build": "cds build/all --clean",
         "deploy": "cds deploy",
         "start": "cds run"
     },

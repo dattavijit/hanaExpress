@@ -14,3 +14,4 @@ if (fs.existsSync('../package.json')) {
         stdio: 'inherit'
     });
 }
+
